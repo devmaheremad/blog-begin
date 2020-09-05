@@ -44,7 +44,7 @@ a:hover {
 
 /* Header */
 
-header {
+/* header {
     display: flex;
     justify-content: center;
 }
@@ -59,7 +59,29 @@ header .rightheader h1 {
 }
 header .rightheader p {
     margin-top: 0;
+} */
+header {
+    display: flex;
+    justify-content: space-between;
 }
+
+header .leftheader {
+    flex-basis: 40%;
+    text-align: right;
+    margin-right: 0.75rem;
+}
+
+header .rightheader {
+    flex-basis: 60%;
+    margin-top: 3.75rem;
+}
+header .rightheader h1 {
+    color: #DA0090;
+    font-size: 3rem;
+    margin: 0;
+}
+header .rightheader p {
+    margin-top: -0.5rem;}
 
 /* /Header */
 
@@ -96,8 +118,6 @@ nav ul li a:hover {
 }
 
 .mycontent article:first-of-type {
-    display: flex;
-    justify-content: flex-start;
     margin-bottom: 5rem;
 }
 .mycontent article {
@@ -105,7 +125,13 @@ nav ul li a:hover {
     justify-content: flex-start;
     margin-bottom: 3rem;
 }
-.mycontent article .imgdiv img {
+.mycontent article .imgdiv {
+    flex-basis: 25%;
+}
+.mycontent article .contdiv {
+    flex-basis: 75%;
+}
+.mycontent article img {
     border-radius: 1rem;
     margin-right: 1rem;
 }
