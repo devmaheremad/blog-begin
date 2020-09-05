@@ -1,0 +1,134 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 80%;
+    margin: 20px auto;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kavivanar', cursive;
+    font-weight: normal;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+ul li {
+    list-style-type: none;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #A51F10;
+    margin: 0;
+}
+a {
+    color: #DA0090;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.posted {
+    font-size: 0.8rem;
+    color: #89A611;
+}
+
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header .rightheader {
+    margin: 20px 0 0 20px;
+}
+header .rightheader h1 {
+    color: #DA0090;
+    font-size: 3rem;
+    margin-bottom: -7px;
+}
+header .rightheader p {
+    margin-top: 0;
+}
+
+/* /Header */
+
+/* Navbar */
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #A61F11;
+    border-top: 1px solid #DA0090;
+    margin-top: 10px;
+}
+nav ul li {
+    list-style-type: none;
+}
+nav ul li a {
+    padding: 0.6rem 1.1rem;
+    display: inline-block;
+    color: #73352E;
+    transition: all 0.3s ease-in-out;
+}
+nav ul li a:hover {
+    background: #000;
+    color: greenyellow;
+}
+
+/* /Navbar */
+
+/* MyContent */
+
+.mycontent {
+    margin: 35px 0 5px 0;
+    border-bottom: 1px solid #DA0090;
+}
+
+.mycontent article:first-of-type {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 5rem;
+}
+.mycontent article {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 3rem;
+}
+.mycontent article .imgdiv img {
+    border-radius: 1rem;
+    margin-right: 1rem;
+}
+
+/* /MyContent */
+
+/* Footer */
+
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    border-top: 1px solid #73352E;
+}
+footer p:first-of-type {
+    margin-top: 25px;
+}
+
+footer ul  {
+    padding: 0;
+    margin-bottom: 4rem;
+}
+footer ul li {
+    margin: 0 2px
+}
+
+/* /Footer */
